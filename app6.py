@@ -13,7 +13,7 @@ def main():
     st.info('제 이름은 ' + name + ' 입니다.')
 
     # max_chars == 최대 입력 값 / placeholder == 입력 전 투명한 글씨
-    st.text_input('이름 입력', max_chars=5, placeholder='기우석') 
+    st.text_input('이름 입력', max_chars=5, placeholder='이름을 입력 하시오') 
 
     text = st.text_area('메세지를 입력하세요')
 

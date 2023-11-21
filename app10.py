@@ -62,5 +62,5 @@ def main() :
         st.plotly_chart(chart3)
 
 
-if __name__ == '__main__' :
+if __name__ == '__main__' :    
     main()
